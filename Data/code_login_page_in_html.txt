@@ -1,0 +1,66 @@
+Here is an example of a basic login page in HTML:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+		}
+		.container {
+			width: 300px;
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			margin: 50px auto;
+		}
+		.form-input {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		.form-input:focus {
+			border-color: #aaa;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		.login-btn {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.login-btn:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Login</h2>
+		<form>
+			<input type="email" class="form-input" id="email" placeholder="Email">
+			<input type="password" class="form-input" id="password" placeholder="Password">
+			<button class="login-btn">Login</button>
+		</form>
+	</div>
+</body>
+</html>
+```
+
+This code creates a basic login page with an email input field, a password input field, and a login button. The page is styled with CSS to have a clean and modern look.
+
+Note that this code does not include any backend functionality to authenticate the user's login credentials. You will need to add that functionality using a programming language such as PHP, JavaScript, or Python.
+
+Also, this code uses a very basic CSS styling, you can always add more styles or modify the existing ones as per your requirement.
+
+Let me know if you need any further modifications!

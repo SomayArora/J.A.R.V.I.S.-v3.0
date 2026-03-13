@@ -1,0 +1,56 @@
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Cohere API Key ————————————————————————————————————        
+remote:        locations:        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: .env:1        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: Backend/Model.py:5        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/SomayArora/J.A.R.V.I.S.-v3.0/security/secret-scanning/unblock-secret/3AtoNlqlZFrbgCXjwbltFBIoXKj        
+remote:             
+remote:             
+remote:       —— Groq API Key ——————————————————————————————————————        
+remote:        locations:        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: .env:4        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: Backend/Automation.py:30        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: Backend/Chatbot.py:7        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: Backend/RealtimeSearchEngine.py:8        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/SomayArora/J.A.R.V.I.S.-v3.0/security/secret-scanning/unblock-secret/3AtoNiquWnqZHfK6700gJB8TfEk        
+remote:             
+remote:             
+remote:       —— Hugging Face User Access Token ————————————————————        
+remote:        locations:        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: .env:5        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: Backend/ImageGeneration.py:7        
+remote:          - commit: d8245de9138e6997ef96593d55e861fbd423faea        
+remote:            path: Trial.py:9        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/SomayArora/J.A.R.V.I.S.-v3.0/security/secret-scanning/unblock-secret/3AtoNhlFZJ21fvHLKTpj14EwRIG        
+remote:             
+remote: 
+remote: 
+To https://github.com/SomayArora/J.A.R.V.I.S.-v3.0.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/SomayArora/J.A.R.V.I.S.-v3.0.git'
